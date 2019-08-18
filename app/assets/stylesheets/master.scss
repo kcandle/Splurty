@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Dosis|&display=swap');
 @import "bootstrap";
 
 .clear {
@@ -7,16 +8,17 @@
 .circle {
   font-weight: bold;
   font-style: italic;
+  font-family: 'Pacifico', cursive;
   position: relative;
   border-radius: 100%;
-  background: #f84342;
+  background: #990000;
   border: 1px solid #F7F7F7;
   width: 80px;
   height: 80px;
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 100px;
+  font-size: 60px;
   line-height: 16px;
   cursor: pointer;
   transform: rotate(11deg);
@@ -46,4 +48,18 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.next-quote {
+  color:#f84342;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-size:20px;
 }
